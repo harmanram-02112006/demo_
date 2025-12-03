@@ -1,0 +1,115 @@
+h3{
+    color: red;
+} /* for h3 */
+
+#heading1{
+    color: rgb(45, 12, 231);
+}/* for id heading1 */
+
+button{
+    color: rgb(244, 77, 6);
+}
+
+body{
+    background: pink;
+}
+
+h2{
+    color:#ffff00;
+}
+
+/* Text alignments css*/
+#alignment{
+    color: blueviolet; text-align: center;
+}
+#para1{
+    color: black; text-align: left;
+}
+#para2{
+    color: rgb(12, 240, 50); text-align: right;
+}
+#para3{
+    color: rgb(202, 17, 63); text-align: center;
+}
+#para4{
+    color:blue; text-align:start; /* start and left same use*/
+}
+#para5{
+     text-align: end;/* end and right same use */
+}
+
+ /*Text decorations*/
+
+ #heading1d{
+    text-decoration: red underline;
+ }
+
+ #heading2d{
+    text-decoration: overline;
+ }
+
+ #heading3d{
+    text-decoration: line-through;
+ }
+
+ a{
+    text-decoration: none; 
+ }
+
+ /* text-weight*/
+#heading4{
+    font-weight: 100; 
+}
+
+#heading5{
+    font-weight: lighter; 
+}
+
+#heading6{
+    font-weight: bold; 
+}
+
+#heading7{
+    font-weight: bolder; 
+}
+
+#heading8{
+    font-weight: 600; /* we can also select the range of texr-weight (400 for bold)*/
+}
+
+/*text-family*/
+#heading9{
+    font-family:Arial,'Times New Roman', Times, serif; /* we can apply multiple font if br. not understand first then next font will apply*/
+}
+
+/*font-size & line-hight */
+
+#one{
+    font-size: 50px; /*1"=96px=2.54cm*/
+}
+
+#three{
+    line-height:2px;
+}
+
+#four{
+    line: height 100px;;
+}
+
+/*text-transform*/
+
+#five{
+    text-transform: uppercase;
+}
+
+#five1{
+    text-transform: lowercase;
+}
+
+#five2{
+    text-transform: capitalize;
+}
+
+#five3{
+    text-transform: none; /*invalid all applied text-transforms*/
+}
